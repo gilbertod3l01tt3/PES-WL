@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel"
+                version="11.1.1.66.73" id="AdministracionPageDef"
+                Package="oracle.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="root" RangeSize="25" DataControl="POFacadeLocal"
+              id="POFacadeLocalIterator" ChangeEventPolicy="ppr"/>
+    <accessorIterator MasterBinding="POFacadeLocalIterator"
+                      Binds="portalbiConfigrolFindAll" RangeSize="25"
+                      DataControl="POFacadeLocal"
+                      BeanClass="oracle.model.PortalbiConfigrol"
+                      id="portalbiConfigrolFindAllIterator"
+                      ChangeEventPolicy="ppr"/>
+    <accessorIterator MasterBinding="POFacadeLocalIterator"
+                      Binds="portalbiConfigreporteFindAll" RangeSize="25"
+                      DataControl="POFacadeLocal"
+                      BeanClass="oracle.model.PortalbiConfigreporte"
+                      id="portalbiConfigreporteFindAllIterator"
+                      ChangeEventPolicy="ppr"/>
+    <searchRegion Binds="portalbiConfigreporteFindAllIterator" Criteria=""
+                  Customizer="oracle.jbo.uicli.binding.JUSearchBindingCustomizer"
+                  id="portalbiConfigreporteFindAllQuery"/>
+    <accessorIterator MasterBinding="POFacadeLocalIterator"
+                      Binds="portalbiRolreporteFindAll" RangeSize="25"
+                      DataControl="POFacadeLocal"
+                      BeanClass="oracle.model.PortalbiRolreporte"
+                      id="portalbiRolreporteFindAllIterator"
+                      ChangeEventPolicy="ppr"/>
+    <searchRegion Binds="portalbiRolreporteFindAllIterator" Criteria=""
+                  Customizer="oracle.jbo.uicli.binding.JUSearchBindingCustomizer"
+                  id="portalbiRolreporteFindAllQuery"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="portalbiConfigrolFindAllIterator"
+                     id="idConfigrol">
+      <AttrNames>
+        <Item Value="idConfigrol"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="portalbiConfigrolFindAllIterator" id="nombre">
+      <AttrNames>
+        <Item Value="nombre"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="portalbiConfigrolFindAllIterator"
+                     id="parametro">
+      <AttrNames>
+        <Item Value="parametro"/>
+      </AttrNames>
+    </attributeValues>
+    <action IterBinding="portalbiConfigrolFindAllIterator" id="First"
+            RequiresUpdateModel="true" Action="first"/>
+    <action IterBinding="portalbiConfigrolFindAllIterator" id="Previous"
+            RequiresUpdateModel="true" Action="previous"/>
+    <action IterBinding="portalbiConfigrolFindAllIterator" id="Next"
+            RequiresUpdateModel="true" Action="next"/>
+    <action IterBinding="portalbiConfigrolFindAllIterator" id="Last"
+            RequiresUpdateModel="true" Action="last"/>
+    <tree IterBinding="portalbiConfigreporteFindAllIterator"
+          id="portalbiConfigreporteFindAll">
+      <nodeDefinition DefName="oracle.model.PortalbiConfigreporte"
+                      Name="portalbiConfigreporteFindAll0">
+        <AttrNames>
+          <Item Value="idConfigreporte"/>
+          <Item Value="nombre"/>
+          <Item Value="estatus"/>
+          <Item Value="panel"/>
+          <Item Value="parametro"/>
+          <Item Value="path"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="portalbiRolreporteFindAllIterator"
+          id="portalbiRolreporteFindAll">
+      <nodeDefinition DefName="oracle.model.PortalbiRolreporte"
+                      Name="portalbiRolreporteFindAll0">
+        <AttrNames>
+          <Item Value="idConfigreporte"/>
+          <Item Value="idConfigrol"/>
+          <Item Value="nombredespliegue"/>
+          <Item Value="ordendespliegue"/>
+          <Item Value="pagina"/>
+          <Item Value="parametromandatorio"/>
+          <Item Value="parametronulo"/>
+          <Item Value="parametroopcional"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

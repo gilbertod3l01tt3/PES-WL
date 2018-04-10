@@ -1,0 +1,694 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<table xmlns="http://xmlns.oracle.com/jdeveloper/1111/offlinedb">
+  <ID class="oracle.javatools.db.IdentifierBasedID">
+    <identifier class="java.lang.String">52db9bd2-6efc-4650-9cfb-5370fc86246e</identifier>
+  </ID>
+  <name>PORTALBI_ROLREPORTE</name>
+  <columns>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">439e9c93-4848-4d56-872e-458c7b3b1332</identifier>
+      </ID>
+      <name>ID_CONFIGROL</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">1f206da5-2e96-4b3b-9b11-9f3fa433ea09</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">38</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.OracleDatabaseImpl</providerClass>
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>ID_CONFIGROL</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>ID_CONFIGROL</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">f091c00b-c452-46bd-88a1-ac6ff8b031ec</identifier>
+      </ID>
+      <name>ID_CONFIGREPORTE</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">bf614f3a-d79d-45ac-986e-20419e2913c4</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">38</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.OracleDatabaseImpl</providerClass>
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>ID_CONFIGREPORTE</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>ID_CONFIGREPORTE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">06c6c1a6-b946-4b07-a4a2-cbc1f2c5d17c</identifier>
+      </ID>
+      <name>NOMBREDESPLIEGUE</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">58e717a9-13bc-4aef-a37c-fe62ced38e43</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">120</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.Oracle9i</providerClass>
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>NOMBREDESPLIEGUE</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>NOMBREDESPLIEGUE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">bc9782d0-4f33-4f1e-9536-b6c188cee051</identifier>
+      </ID>
+      <name>ORDENDESPLIEGUE</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">7b1637f8-072c-463b-abe0-6d6355045921</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">3</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.OracleDatabaseImpl</providerClass>
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>ORDENDESPLIEGUE</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>ORDENDESPLIEGUE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">e55f8406-15a9-493a-a5e2-5356741baaf3</identifier>
+      </ID>
+      <name>PARAMETROMANDATORIO</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">fa570db8-5e12-4166-88b2-046f047c4144</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">120</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.Oracle9i</providerClass>
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>PARAMETROMANDATORIO</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>PARAMETROMANDATORIO</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">559c9c68-a5d7-4544-8047-32d4143b6217</identifier>
+      </ID>
+      <name>PARAMETROOPCIONAL</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">4277f52a-7da9-45db-b911-ba5826b021da</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">120</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.Oracle9i</providerClass>
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>PARAMETROOPCIONAL</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>PARAMETROOPCIONAL</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">f1bd10fe-197d-4bef-b6e5-1a2841ec6767</identifier>
+      </ID>
+      <name>PARAMETRONULO</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">388de40e-f81f-4c50-8cdf-bbccb7a57811</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">120</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.Oracle9i</providerClass>
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>PARAMETRONULO</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>PARAMETRONULO</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">d4dd226c-9be4-4405-9adc-da61b8bbd4b4</identifier>
+      </ID>
+      <name>PAGINA</name>
+      <dataTypeUsage class="oracle.javatools.db.datatypes.PredefinedDataTypeUsage">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">f6305118-4b15-4b68-a53b-3a23ce3db052</identifier>
+        </ID>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">120</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <providerClass>oracle.javatools.db.ora.Oracle9i</providerClass>
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>PAGINA</name>
+                <parent class="oracle.javatools.db.ReferenceID">
+                  <name>PORTALBI_ROLREPORTE</name>
+                  <identifier class="java.math.BigDecimal">179690</identifier>
+                  <schemaName>DESARROLLODELOITTE3</schemaName>
+                  <type>TABLE</type>
+                </parent>
+                <type>COLUMN</type>
+              </parent>
+              <type>DataTypeUsage</type>
+            </value>
+          </entry>
+        </properties>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>PAGINA</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+  </columns>
+  <constraints>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">14f7f588-80df-45ea-95ff-e50126cd3a30</identifier>
+      </ID>
+      <name>R_2399</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.IdentifierBasedID">
+          <name>ID_CONFIGROL</name>
+          <identifier class="java.lang.String">439e9c93-4848-4d56-872e-458c7b3b1332</identifier>
+          <parent class="oracle.javatools.db.IdentifierBasedID">
+            <name>PORTALBI_ROLREPORTE</name>
+            <identifier class="java.lang.String">52db9bd2-6efc-4650-9cfb-5370fc86246e</identifier>
+            <schemaName>DESARROLLODELOITTE3</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <deleteMode>0</deleteMode>
+      <enabled>true</enabled>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>R_2399</name>
+            <childObjectNames>
+              <childObjectName>ID_CONFIGROL</childObjectName>
+            </childObjectNames>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <subType>FKConstraint</subType>
+            <type>CONSTRAINT</type>
+          </value>
+        </entry>
+      </properties>
+      <referenceID class="oracle.javatools.db.IdentifierBasedID">
+        <name>XPKPORTALBI_CONFIGROL</name>
+        <identifier class="java.lang.String">ef6d618b-a73e-4522-a6f2-36ac97645181</identifier>
+        <parent class="oracle.javatools.db.IdentifierBasedID">
+          <name>PORTALBI_CONFIGROL</name>
+          <identifier class="java.lang.String">363508bb-cac7-46ba-9e3a-46f05e7f52ab</identifier>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>DESARROLLODELOITTE3</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">67e1e1b5-2d9f-4492-9871-c9f882d5381a</identifier>
+      </ID>
+      <name>R_241</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.IdentifierBasedID">
+          <name>ID_CONFIGREPORTE</name>
+          <identifier class="java.lang.String">f091c00b-c452-46bd-88a1-ac6ff8b031ec</identifier>
+          <parent class="oracle.javatools.db.IdentifierBasedID">
+            <name>PORTALBI_ROLREPORTE</name>
+            <identifier class="java.lang.String">52db9bd2-6efc-4650-9cfb-5370fc86246e</identifier>
+            <schemaName>DESARROLLODELOITTE3</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <deleteMode>0</deleteMode>
+      <enabled>true</enabled>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>R_241</name>
+            <childObjectNames>
+              <childObjectName>ID_CONFIGREPORTE</childObjectName>
+            </childObjectNames>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <subType>FKConstraint</subType>
+            <type>CONSTRAINT</type>
+          </value>
+        </entry>
+      </properties>
+      <referenceID class="oracle.javatools.db.IdentifierBasedID">
+        <name>XPKPORTALBI_CONFIGREPORTE</name>
+        <identifier class="java.lang.String">7ed288b8-c8bb-4a1a-b2ef-2d214c3b98d7</identifier>
+        <parent class="oracle.javatools.db.IdentifierBasedID">
+          <name>PORTALBI_CONFIGREPORTE</name>
+          <identifier class="java.lang.String">5161b753-cc22-4f26-b1e5-7a1821061515</identifier>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>DESARROLLODELOITTE3</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.PKConstraint">
+      <ID class="oracle.javatools.db.IdentifierBasedID">
+        <identifier class="java.lang.String">7dcb9a7a-501f-4c1b-b6fe-9ccbf35bd9f5</identifier>
+      </ID>
+      <name>XPKPORTALBI_ROLREPORTE</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.IdentifierBasedID">
+          <name>ID_CONFIGROL</name>
+          <identifier class="java.lang.String">439e9c93-4848-4d56-872e-458c7b3b1332</identifier>
+          <parent class="oracle.javatools.db.IdentifierBasedID">
+            <name>PORTALBI_ROLREPORTE</name>
+            <identifier class="java.lang.String">52db9bd2-6efc-4650-9cfb-5370fc86246e</identifier>
+            <schemaName>DESARROLLODELOITTE3</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+        <columnID class="oracle.javatools.db.IdentifierBasedID">
+          <name>ID_CONFIGREPORTE</name>
+          <identifier class="java.lang.String">f091c00b-c452-46bd-88a1-ac6ff8b031ec</identifier>
+          <parent class="oracle.javatools.db.IdentifierBasedID">
+            <name>PORTALBI_ROLREPORTE</name>
+            <identifier class="java.lang.String">52db9bd2-6efc-4650-9cfb-5370fc86246e</identifier>
+            <schemaName>DESARROLLODELOITTE3</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>DESARROLLODELOITTE3</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>XPKPORTALBI_ROLREPORTE</name>
+            <childObjectNames>
+              <childObjectName>ID_CONFIGROL</childObjectName>
+              <childObjectName>ID_CONFIGREPORTE</childObjectName>
+            </childObjectNames>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>PORTALBI_ROLREPORTE</name>
+              <identifier class="java.math.BigDecimal">179690</identifier>
+              <schemaName>DESARROLLODELOITTE3</schemaName>
+              <type>TABLE</type>
+            </parent>
+            <subType>PKConstraint</subType>
+            <type>CONSTRAINT</type>
+          </value>
+        </entry>
+      </properties>
+    </constraint>
+  </constraints>
+  <properties>
+    <entry>
+      <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+      <value class="oracle.javatools.db.ReferenceID">
+        <name>PORTALBI_ROLREPORTE</name>
+        <identifier class="java.math.BigDecimal">179690</identifier>
+        <schemaName>DESARROLLODELOITTE3</schemaName>
+        <type>TABLE</type>
+      </value>
+    </entry>
+    <entry>
+      <key>OracleStorageProperties</key>
+      <value class="oracle.javatools.db.ora.OracleStorageProperties">
+        <ID class="oracle.javatools.db.IdentifierBasedID">
+          <identifier class="java.lang.String">ad8f9ec9-327f-49a2-ab6b-512281f56231</identifier>
+        </ID>
+        <bufferMode>DEFAULT</bufferMode>
+        <initialExtent>65536</initialExtent>
+        <initrans>1</initrans>
+        <logging>true</logging>
+        <maxExtent>2147483645</maxExtent>
+        <minExtent>1</minExtent>
+        <nextExtent>1048576</nextExtent>
+        <percentFree>10</percentFree>
+        <properties>
+          <entry>
+            <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+            <value class="oracle.javatools.db.ReferenceID">
+              <parent class="oracle.javatools.db.ReferenceID">
+                <name>PORTALBI_ROLREPORTE</name>
+                <identifier class="java.math.BigDecimal">179690</identifier>
+                <schemaName>DESARROLLODELOITTE3</schemaName>
+                <type>TABLE</type>
+              </parent>
+              <type>OracleStorageProperties</type>
+            </value>
+          </entry>
+        </properties>
+        <tablespaceID class="oracle.javatools.db.ReferenceID">
+          <name>DESA_DELOITTE</name>
+          <type>TABLESPACE</type>
+        </tablespaceID>
+      </value>
+    </entry>
+    <entry>
+      <key>TableType</key>
+      <value class="oracle.javatools.db.Table$TableType">NORMAL</value>
+    </entry>
+  </properties>
+  <schema>
+    <name>DESARROLLODELOITTE3</name>
+  </schema>
+</table>

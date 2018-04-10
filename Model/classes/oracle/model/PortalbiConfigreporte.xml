@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.66.73"
+          id="PortalbiConfigreporte" Package="oracle.model"
+          BeanClass="oracle.model.PortalbiConfigreporte" isJavaBased="true">
+  <Attribute Name="estatus" Type="java.lang.Long"/>
+  <Attribute Name="idConfigreporte" PrimaryKey="true" Type="java.lang.Long"/>
+  <Attribute Name="nombre" Type="java.lang.String"/>
+  <Attribute Name="panel" Type="java.lang.String"/>
+  <Attribute Name="parametro" Type="java.lang.String"/>
+  <Attribute Name="path" Type="java.lang.String"/>
+  <AccessorAttribute id="portalbiRolreporteList" IsCollection="true"
+                     RemoveMethod="removePortalbiRolreporte"
+                     AddMethod="addPortalbiRolreporte"
+                     BeanClass="oracle.model.PortalbiRolreporte"
+                     CollectionBeanClass="UpdateableCollection">
+    <Properties>
+      <Property Name="RemoveMethod" Value="removePortalbiRolreporte"/>
+      <Property Name="AddMethod" Value="addPortalbiRolreporte"/>
+    </Properties>
+  </AccessorAttribute>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiRolreporte"
+                  BeanClass="oracle.model.PortalbiRolreporte"
+                  id="addPortalbiRolreporte"
+                  ReturnNodeName="PortalbiRolreporte">
+    <ParameterInfo id="portalbiRolreporte"
+                   Type="oracle.model.PortalbiRolreporte" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiRolreporte"
+                  BeanClass="oracle.model.PortalbiRolreporte"
+                  id="removePortalbiRolreporte"
+                  ReturnNodeName="PortalbiRolreporte">
+    <ParameterInfo id="portalbiRolreporte"
+                   Type="oracle.model.PortalbiRolreporte" isStructured="true"/>
+  </MethodAccessor>
+  <ConstructorMethod IsCollection="true"
+                     Type="oracle.model.PortalbiConfigreporte"
+                     BeanClass="oracle.model.PortalbiConfigreporte"
+                     id="PortalbiConfigreporte">
+    <ParameterInfo id="estatus" Type="java.lang.Long" isStructured="false"/>
+    <ParameterInfo id="idConfigreporte" Type="java.lang.Long"
+                   isStructured="false"/>
+    <ParameterInfo id="nombre" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="panel" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="parametro" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="path" Type="java.lang.String" isStructured="false"/>
+  </ConstructorMethod>
+  <ConstructorMethod IsCollection="true"
+                     Type="oracle.model.PortalbiConfigreporte"
+                     BeanClass="oracle.model.PortalbiConfigreporte"
+                     id="PortalbiConfigreporte"/>
+</JavaBean>

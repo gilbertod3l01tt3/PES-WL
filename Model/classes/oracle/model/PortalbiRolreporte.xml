@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.66.73"
+          id="PortalbiRolreporte" Package="oracle.model"
+          BeanClass="oracle.model.PortalbiRolreporte" isJavaBased="true">
+  <Attribute Name="idConfigreporte" PrimaryKey="true" Type="java.lang.Long">
+    <RequiredValidationBean xmlns="http://xmlns.oracle.com/adfm/validation"
+                            OnAttribute="idConfigreporte"
+                            ResId="oracle.model.PortalbiRolreporte.idConfigreporte_Rule_1"
+                            Inverse="false" Severity="Error"
+                            Name="idConfigreporte_Rule_0"/>
+  </Attribute>
+  <Attribute Name="idConfigrol" PrimaryKey="true" Type="java.lang.Long">
+    <RequiredValidationBean xmlns="http://xmlns.oracle.com/adfm/validation"
+                            OnAttribute="idConfigreporte"
+                            ResId="oracle.model.PortalbiRolreporte.idConfigrol_Rule_0"
+                            Inverse="false" Severity="Error"
+                            Name="idConfigrol_Rule_0"/>
+  </Attribute>
+  <Attribute Name="nombredespliegue" Type="java.lang.String"/>
+  <Attribute Name="ordendespliegue" Type="java.lang.Long"/>
+  <Attribute Name="pagina" Type="java.lang.String"/>
+  <Attribute Name="parametromandatorio" Type="java.lang.String"/>
+  <Attribute Name="parametronulo" Type="java.lang.String"/>
+  <Attribute Name="parametroopcional" Type="java.lang.String"/>
+  <AccessorAttribute id="portalbiConfigrol" IsCollection="false"
+                     BeanClass="oracle.model.PortalbiConfigrol"
+                     CollectionBeanClass="UpdateableSingleValue"/>
+  <AccessorAttribute id="portalbiConfigreporte" IsCollection="false"
+                     BeanClass="oracle.model.PortalbiConfigreporte"
+                     CollectionBeanClass="UpdateableSingleValue"/>
+  <ConstructorMethod IsCollection="true" Type="oracle.model.PortalbiRolreporte"
+                     BeanClass="oracle.model.PortalbiRolreporte"
+                     id="PortalbiRolreporte">
+    <ParameterInfo id="portalbiConfigreporte"
+                   Type="oracle.model.PortalbiConfigreporte"
+                   isStructured="true"/>
+    <ParameterInfo id="portalbiConfigrol" Type="oracle.model.PortalbiConfigrol"
+                   isStructured="true"/>
+    <ParameterInfo id="nombredespliegue" Type="java.lang.String"
+                   isStructured="false"/>
+    <ParameterInfo id="ordendespliegue" Type="java.lang.Long"
+                   isStructured="false"/>
+    <ParameterInfo id="pagina" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="parametromandatorio" Type="java.lang.String"
+                   isStructured="false"/>
+    <ParameterInfo id="parametronulo" Type="java.lang.String"
+                   isStructured="false"/>
+    <ParameterInfo id="parametroopcional" Type="java.lang.String"
+                   isStructured="false"/>
+  </ConstructorMethod>
+  <ConstructorMethod IsCollection="true" Type="oracle.model.PortalbiRolreporte"
+                     BeanClass="oracle.model.PortalbiRolreporte"
+                     id="PortalbiRolreporte"/>
+  <ResourceBundle>
+    <PropertiesBundle xmlns="http://xmlns.oracle.com/adfm/resourcebundle"
+                      PropertiesFile="oracle.model.ModelBundle"/>
+  </ResourceBundle>
+</JavaBean>

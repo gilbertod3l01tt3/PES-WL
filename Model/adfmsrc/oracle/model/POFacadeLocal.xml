@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.66.73"
+          id="POFacadeLocal" Package="oracle.model"
+          BeanClass="oracle.model.POFacadeLocal" isJavaBased="true">
+  <AccessorAttribute id="portalbiRolreporteFindAll" IsCollection="true"
+                     BeanClass="oracle.model.PortalbiRolreporte"
+                     CollectionBeanClass="UpdateableCollection"/>
+  <AccessorAttribute id="portalbiConfigreporteFindAll" IsCollection="true"
+                     BeanClass="oracle.model.PortalbiConfigreporte"
+                     CollectionBeanClass="UpdateableCollection"/>
+  <AccessorAttribute id="portalbiConfigrolFindAll" IsCollection="true"
+                     BeanClass="oracle.model.PortalbiConfigrol"
+                     CollectionBeanClass="UpdateableCollection"/>
+  <AccessorAttribute id="portalbiConfigobieeFindAll" IsCollection="true"
+                     BeanClass="oracle.model.PortalbiConfigobiee"
+                     CollectionBeanClass="UpdateableCollection"/>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiRolreporte"
+                  BeanClass="oracle.model.PortalbiRolreporte"
+                  id="persistPortalbiRolreporte"
+                  ReturnNodeName="PortalbiRolreporte">
+    <ParameterInfo id="portalbiRolreporte"
+                   Type="oracle.model.PortalbiRolreporte" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiRolreporte"
+                  BeanClass="oracle.model.PortalbiRolreporte"
+                  id="mergePortalbiRolreporte"
+                  ReturnNodeName="PortalbiRolreporte">
+    <ParameterInfo id="portalbiRolreporte"
+                   Type="oracle.model.PortalbiRolreporte" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="void" id="removePortalbiRolreporte"
+                  ReturnNodeName="Return">
+    <ParameterInfo id="portalbiRolreporte"
+                   Type="oracle.model.PortalbiRolreporte" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigreporte"
+                  BeanClass="oracle.model.PortalbiConfigreporte"
+                  id="persistPortalbiConfigreporte"
+                  ReturnNodeName="PortalbiConfigreporte">
+    <ParameterInfo id="portalbiConfigreporte"
+                   Type="oracle.model.PortalbiConfigreporte"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigreporte"
+                  BeanClass="oracle.model.PortalbiConfigreporte"
+                  id="mergePortalbiConfigreporte"
+                  ReturnNodeName="PortalbiConfigreporte">
+    <ParameterInfo id="portalbiConfigreporte"
+                   Type="oracle.model.PortalbiConfigreporte"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="void"
+                  id="removePortalbiConfigreporte" ReturnNodeName="Return">
+    <ParameterInfo id="portalbiConfigreporte"
+                   Type="oracle.model.PortalbiConfigreporte"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigrol"
+                  BeanClass="oracle.model.PortalbiConfigrol"
+                  id="persistPortalbiConfigrol"
+                  ReturnNodeName="PortalbiConfigrol">
+    <ParameterInfo id="portalbiConfigrol" Type="oracle.model.PortalbiConfigrol"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigrol"
+                  BeanClass="oracle.model.PortalbiConfigrol"
+                  id="mergePortalbiConfigrol"
+                  ReturnNodeName="PortalbiConfigrol">
+    <ParameterInfo id="portalbiConfigrol" Type="oracle.model.PortalbiConfigrol"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="void" id="removePortalbiConfigrol"
+                  ReturnNodeName="Return">
+    <ParameterInfo id="portalbiConfigrol" Type="oracle.model.PortalbiConfigrol"
+                   isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigobiee"
+                  BeanClass="oracle.model.PortalbiConfigobiee"
+                  id="persistPortalbiConfigobiee"
+                  ReturnNodeName="PortalbiConfigobiee">
+    <ParameterInfo id="portalbiConfigobiee"
+                   Type="oracle.model.PortalbiConfigobiee" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="oracle.model.PortalbiConfigobiee"
+                  BeanClass="oracle.model.PortalbiConfigobiee"
+                  id="mergePortalbiConfigobiee"
+                  ReturnNodeName="PortalbiConfigobiee">
+    <ParameterInfo id="portalbiConfigobiee"
+                   Type="oracle.model.PortalbiConfigobiee" isStructured="true"/>
+  </MethodAccessor>
+  <MethodAccessor IsCollection="false" Type="void"
+                  id="removePortalbiConfigobiee" ReturnNodeName="Return">
+    <ParameterInfo id="portalbiConfigobiee"
+                   Type="oracle.model.PortalbiConfigobiee" isStructured="true"/>
+  </MethodAccessor>
+</JavaBean>
